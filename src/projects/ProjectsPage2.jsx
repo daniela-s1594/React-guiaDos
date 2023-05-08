@@ -1,10 +1,9 @@
 import React from "react";
 
 const ProyectsPage2 = () => {
-    const name ="Daniela";
-    const element = <h1>Hello,
-         { name }. Welcome to aprendices de React</h1>
-    return element
+    let i = 1 ;
+    const element = <h1 className="firstAttribute">¡Hola!</h1>;
+    return element;
 }
 
 export default ProyectsPage2;

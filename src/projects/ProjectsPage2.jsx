@@ -1,8 +1,11 @@
 import React from "react";
 
 const ProyectsPage2 = () => {
-    let varName = "clase1"
-    const element = <h1 className={varName}>¡Saludo!</h1>;
+    let element= <div>
+        <h1>Pagina principal</h1>
+        <h2>Articulo</h2>
+        <section>100 años de soledad</section>
+    </div>
     return element;
 }
 
